@@ -1,0 +1,20 @@
+User
+- email
+- nick_name
+
+Household
+- name
+- owner (user)
+- members [user]
+- [pets]
+
+Pet
+- id
+- household
+- name
+
+FedRecord
+- household
+- user
+- timestamp
+- pet
